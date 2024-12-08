@@ -12,6 +12,10 @@ import PyPDF2
 import pandas as pd
 import streamlit as st
 
+import sys
+import pysqlite3
+sys.modules['sqlite3'] = pysqlite3
+
 from crewai import Agent, Task, Crew
 from crewai_tools import (
     FileReadTool,
