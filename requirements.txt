@@ -3,4 +3,5 @@ PyPDF2
 pandas
 crewai
 crewai_tools
-
+chromadb
+pysqlite3-binary
